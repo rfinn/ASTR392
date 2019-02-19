@@ -1,5 +1,4 @@
-HIP,common name,Vmag,Abs Mag,Distance_pc,B-V ,"Spectral
-Type"
+HIP,common name,Vmag,Abs Mag,Distance_pc,B-V ,"SpectralType"
 32349,Sirius,-1.44,1.45,2.64,0.009,A0m
 30438,Canopus,-0.62,-5.53,95.88,0.164,F0Ib
 69673,Arcturus,-0.05,-0.31,11.25,1.239,K2IIIp

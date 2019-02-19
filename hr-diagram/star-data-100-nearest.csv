@@ -1,5 +1,4 @@
-HIP,common name,Vmag,Abs Mag,Distance_pc,B-V ,"Spectral
-Type"
+HIP,common name,Vmag,Abs Mag,Distance_pc,B-V ,"SpectralType"
 70890,Proxima Centauri,11.01,15.45,1.2948,1.807,M5Ve
 71681,a Centauri B,1.35,5.7,1.3475,0.9,K1V
 71683,Rigel Kentaurus,-0.01,4.34,1.3475,0.71,G2V
