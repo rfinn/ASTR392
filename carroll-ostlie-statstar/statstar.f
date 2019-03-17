@@ -439,7 +439,7 @@ c
      1 '# dynes/cm**2',/,
      2 '# Z    = ',0pf13.6,'     ',12x,'epsilon     = ',1pe12.5,
      3 '# ergs/s/g',/,
-     4 '#        ',   13x ,'     ',12x,'dlnP/dlnT   = ',1pe12.5,/,'#'/)
+     4 '#        ',   13x ,'     ',12x,'dlnP/dlnT   = ',1pe12.5,/,'#')
  2500 format('# '/,'# Notes: ',/,
      1 '# (1) Mass is listed as Qm = 1.0 - M_r/Mtot, where Mtot = ',
      2 1pe13.6,' g',/,
