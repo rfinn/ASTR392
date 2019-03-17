@@ -426,7 +426,7 @@ c
      7 10x,'P      = ',1pe12.5,' dynes/cm**2',/,
      8 10x,'L_r/Ls = ',1pe12.5)
  1000 format('# ',15x,'A Homogeneous Main-Sequence Model')
- 2000 format('# ',
+ 2000 format('# '/,
      1 '# The surface conditions are:',10x,'The central conditions are:',
      2 '#',/,
      3 '# Mtot = ',0pf13.6,' Msun',12x,'Mc/Mtot     = ',1pe12.5,/,
