@@ -425,10 +425,10 @@ c
      6 12x,'epsilon = ',1pe12.5,' ergs/g/s',/,
      7 10x,'P      = ',1pe12.5,' dynes/cm**2',/,
      8 10x,'L_r/Ls = ',1pe12.5)
- 1000 format('# ',15x,'A Homogeneous Main-Sequence Model',/)
- 2000 format('# ',/,
+ 1000 format('# ',15x,'A Homogeneous Main-Sequence Model')
+ 2000 format('# ',
      1 '# The surface conditions are:',10x,'The central conditions are:',
-     2 //,
+     2 '#',/,
      3 '# Mtot = ',0pf13.6,' Msun',12x,'Mc/Mtot     = ',1pe12.5,/,
      4 '# Rtot = ',0pf13.6,' Rsun',12x,'Rc/Rtot     = ',1pe12.5,/,
      5 '# Ltot = ',0pf13.6,' Lsun',12x,'Lc/Ltot     = ',1pe12.5,/,
@@ -440,14 +440,14 @@ c
      2 '# Z    = ',0pf13.6,'     ',12x,'epsilon     = ',1pe12.5,
      3 '# ergs/s/g',/,
      4 '#        ',   13x ,'     ',12x,'dlnP/dlnT   = ',1pe12.5,/,'#'/)
- 2500 format(' ',/,' Notes: ',/,
+ 2500 format('# '/,'# Notes: ',/,
      1 '# (1) Mass is listed as Qm = 1.0 - M_r/Mtot, where Mtot = ',
      2 1pe13.6,' g',/,
      3 '# (2) Convective zones are indicated by c, radiative zones by r',
      4 /,
      5 '# (3) dlnP/dlnT may be limited to +99.9 or -99.9; if so it is',
      6 '# labeled by *',/,'#',/,'#')
- 3000 format(' ',5x,'r',7x,'Qm',7x,'L_r',7x,'T',8x,'P',7x,
+ 3000 format('# ',5x,'r',7x,'Qm',7x,'L_r',7x,'T',8x,'P',7x,
      1 'rho',6x,'kap',6x,'eps',3x,'dlPdlT')
  4000 format(' ',1p8e9.2,2a1,0pf5.1)
  5000 format(' ',/,15x,'Sorry to be the bearer of bad news, but...',/,
