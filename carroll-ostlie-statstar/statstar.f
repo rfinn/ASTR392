@@ -447,7 +447,7 @@ c
      4 /,
      5 '# (3) dlnP/dlnT may be limited to +99.9 or -99.9; if so it is',
      6 '# labeled by *',/,'#',/,'#')
- 3000 format('# ',5x,'r',7x,'Qm',7x,'L_r',7x,'T',8x,'P',7x,
+ 3000 format(' ',5x,'r',7x,'Qm',7x,'L_r',7x,'T',8x,'P',7x,
      1 'rho',6x,'kap',6x,'eps',3x,'dlPdlT')
  4000 format(' ',1p8e9.2,2a1,0pf5.1)
  5000 format(' ',/,15x,'Sorry to be the bearer of bad news, but...',/,
