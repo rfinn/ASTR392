@@ -1,7 +1,9 @@
-#!/scisoft/bin/python 
+#!/usr/bin/env python
+
 #called by sync.py period
 #fold data according to period specified on command line
 #output data all with period between 0 and 1
+
 import numpy as np
 from matplotlib import pyplot as plt
 import time
@@ -66,16 +68,16 @@ def phasestep(min,max,step):
         time.sleep(.5)
 
 (jd,mag,obs)=getdata()
-print "To test one period, type"
-print "> phase(period)"
-print "where period is set to desired period"
-print " "
-print " "
-print "To test a range of periods, type"
-print "> phasestep(min,max,step)"
-print "where min = starting period" 
-print "and max = ending period"
-print "and step is  = ending period" 
+print("To test one period, type")
+print("> phase(period)")
+print("where period is set to desired period")
+print(" ")
+print(" ")
+print("To test a range of periods, type")
+print("> phasestep(min,max,step)")
+print("where min = starting period") 
+print("and max = ending period")
+print("and step is  = ending period") 
 #phase=folddata(jd,period)
 #plotdata(phase,mag)
 #writeoutput(phase,mag)
