@@ -65,6 +65,7 @@ def phasestep(min,max,step):
         plt.draw()
         #t = raw_input('type any key to continue')
         i=i+1
+        plt.show()
         time.sleep(.5)
 
 (jd,mag,obs)=getdata()
