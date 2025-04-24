@@ -60,10 +60,10 @@ def phasestep(min,max,step):
     p=np.arange(min,(max+step),step)
     i=1
     for period in p:
-        #plt.figure(i)
+        plt.figure(i)
         phase(period)
         plt.draw()
-        t = raw_input('type any key to continue')
+        #t = raw_input('type any key to continue')
         i=i+1
         time.sleep(.5)
 
